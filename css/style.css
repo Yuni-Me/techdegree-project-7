@@ -699,6 +699,10 @@ main {
     height: 30vh;
     width: 40vw;
   }
+  #mobile-traffic {
+    height: 300px;
+    width: 300px;
+  }
   .mobile-chart h3 {
     padding-left: 15px;
   }
@@ -813,8 +817,12 @@ main {
     margin-left: 50px;
   }
   .mobile-chart {
-    height: 40vh;
-    width: 40vw;
+    height: 42vh;
+    width: 41vw;
+  }
+  #mobile-traffic {
+    width: 390px;
+    height: 80vh;
   }
   .app-name {
     font-size: 0.9;
@@ -826,13 +834,18 @@ main {
     margin-bottom: 150px;
   }
 }
-@media (min-width: 1279px) {
+@media (min-width: 1280px) {
   .chart {
     height: 45vh;
     width: 40vw;
   }
   .mobile-chart {
     height: 50vh;
+    width: 40vw;
+  }
+  #mobile-traffic {
+    width: 550px;
+    height: 700px;
   }
 }
 @media (min-width: 1324px) {
@@ -845,6 +858,7 @@ main {
   }
   .mobile-chart {
     height: 50vh;
+    width: 41.5vw;
   }
 }
 @media (min-width: 1700px) {
@@ -855,7 +869,18 @@ main {
     height: 50vh;
     width: 40vw;
   }
+  .daily-chart {
+    width: 40vw;
+  }
+  .mobile-chart {
+    height: 48vh;
+  }
   .mobile-chart {
     height: 60vh;
+    width: 35vw;
+  }
+  #mobile-traffic {
+    width: 880px;
+    height: 800px;
   }
 }
