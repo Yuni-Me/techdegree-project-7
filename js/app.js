@@ -250,7 +250,7 @@ const mobileData = {
   ],
 };
 const mobileOptions = {
-  responsive: true,
+  responsive: false,
   legend: {
     position: "right",
     labels: {
